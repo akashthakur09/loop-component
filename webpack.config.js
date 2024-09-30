@@ -9,7 +9,7 @@ module.exports = (env) => {
   return {
     devtool: "inline-source-map",
     entry: {
-      app: "./src/app.js",
+      app: "./src/Editor.js",
     },
     mode,
     output: {
